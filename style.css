@@ -1,0 +1,14 @@
+:root{--bg:#0b0420;--ink:#efe9ff;--dim:#a99cc8;--pink:#ff4fa3;--cyan:#38e1ff;--card:#170b33}
+*{box-sizing:border-box}
+html,body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.6 ui-monospace,"SF Mono",Menlo,Consolas,monospace}
+a{color:var(--cyan)}
+.wrap{max-width:760px;margin:0 auto;padding:48px 20px 64px}
+.logo{font-weight:900;letter-spacing:.08em;font-size:clamp(38px,10vw,72px);line-height:1;margin:0;text-shadow:3px 0 0 var(--pink),-3px 0 0 var(--cyan)}
+.tag{color:var(--dim);margin:14px 0 36px}
+.card{background:var(--card);border:1px solid #3a2768;border-radius:16px;padding:22px 24px;margin:18px 0}
+h1{font-size:28px;margin:0 0 6px}
+h2{font-size:18px;margin:28px 0 8px;color:var(--pink);letter-spacing:.04em}
+p,li{color:var(--ink)}
+.small{color:var(--dim);font-size:14px}
+nav{margin-bottom:28px}
+nav a{margin-right:18px}
